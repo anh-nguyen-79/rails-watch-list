@@ -1,4 +1,5 @@
 <div class="container mt-5">
+<%= cl_image_tag("premium_photo-1661675440353-6a6019c95bc7_mjsb00", width: 400, height: 400, crop: :fill) %>
   <h1>List of movies</h1>
 
     <% @lists.each do |list| %>
@@ -8,6 +9,3 @@
     <%= link_to "Add one", new_list_path, class:"btn btn-primary"%>
 <%# <%= link_to "More info", new_list_path, class:"btn btn-primary"%>
         </div>
-
-<%= cl_image_tag("premium_photo-1661675440353-6a6019c95bc7_mjsb00",
-      width: 400, height: 300, crop: :fill) %>
