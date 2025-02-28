@@ -11,6 +11,15 @@
   </head>
 
   <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand"><i class="fa-solid fa-film"></i></a>
+        <form class="d-flex" >
+          <%= link_to "My List", lists_path, class: "btn btn-light"%></button>
+          <%= link_to "New list", new_list_path, class: "btn btn-light"%></button>
+        </form>
+      </div>
+    </nav>
     <%= yield %>
   </body>
 </html>
