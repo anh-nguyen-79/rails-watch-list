@@ -71,3 +71,5 @@ gem "simple_form"
 gem "sassc-rails"
 
 gem 'faker'
+
+gem "dotenv-rails"
